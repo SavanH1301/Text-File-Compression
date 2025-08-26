@@ -22,6 +22,16 @@ Basis of many real-world compressors like **DEFLATE (ZIP/PNG)**.
 Builds an explicit dictionary of substrings and outputs `(index, next_char)` pairs.  
 Foundation for formats like **LZW (GIF)**.
 
+## Key Differences Between LZ77 and LZ78
+
+| Feature                | **LZ77**                   | **LZ78**                   |
+|------------------------|-----------------------------|-----------------------------|
+| Uses sliding window    | ✅ Yes                     | ❌ No                      |
+| Builds dictionary      | Implicitly                 | Explicitly                 |
+| Output format          | `(offset, length, nextChar)` | `(index, nextChar)`        |
+| Best for               | Repeated patterns in nearby positions | General patterns across the text |
+
+
 ## Features
 - Compression and decompression (text input)
 - Clean, modular C++ implementations
