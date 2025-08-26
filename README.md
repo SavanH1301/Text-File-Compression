@@ -1,12 +1,12 @@
-# # Data Compression Algorithms in C++
+# # Text File Compression Algorithms in C++
 
-This repository contains implementations of popular lossless data compression algorithms in C++, including:
+This repository contains implementations of popular lossless Text File compression algorithms in C++, including:
 
 - **Huffman Coding**
 - **Lempel–Ziv 77 (LZ77)**
 - **Lempel–Ziv 78 (LZ78)**
 
-These algorithms are fundamental to understanding how modern compression techniques (like ZIP, PNG, and GIF) work.
+These algorithms are fundamental to understanding how modern compression techniques work.
 
 ## Algorithms Overview
 
